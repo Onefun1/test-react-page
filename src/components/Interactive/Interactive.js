@@ -35,7 +35,8 @@ class Interactive extends React.Component {
       ],
       validBase: true,
       selectedCells: [[], [], [], [], []],
-      winCombitation: randomCombination
+      winCombitation: randomCombination,
+      count: 0
     };
   }
 
@@ -62,7 +63,17 @@ class Interactive extends React.Component {
   };
 
   checkWinCombination = () => {
-    console.log("click", this);
+    const { selectedCells, winCombitation } = this.state;
+
+    for (let i = 0; i < 5; i++) {
+      for (let j = 0; j < 5; j++) {
+        if (selectedCells[i].includes(winCombitation[i][j])) {
+          this.setState({
+            count: this.state.count + 1
+          });
+        }
+      }
+    }
   };
 
   render() {
