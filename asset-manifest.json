@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/test-react-page/static/css/main.4ed6d0f5.chunk.css",
+    "main.js": "/test-react-page/static/js/main.ba35e5b2.chunk.js",
+    "main.js.map": "/test-react-page/static/js/main.ba35e5b2.chunk.js.map",
+    "runtime~main.js": "/test-react-page/static/js/runtime~main.1bf273fe.js",
+    "runtime~main.js.map": "/test-react-page/static/js/runtime~main.1bf273fe.js.map",
+    "static/js/2.4af0fa91.chunk.js": "/test-react-page/static/js/2.4af0fa91.chunk.js",
+    "static/js/2.4af0fa91.chunk.js.map": "/test-react-page/static/js/2.4af0fa91.chunk.js.map",
+    "index.html": "/test-react-page/index.html",
+    "precache-manifest.9f768625cb2641ec37a34aa6f097d4f4.js": "/test-react-page/precache-manifest.9f768625cb2641ec37a34aa6f097d4f4.js",
+    "service-worker.js": "/test-react-page/service-worker.js",
+    "static/css/main.4ed6d0f5.chunk.css.map": "/test-react-page/static/css/main.4ed6d0f5.chunk.css.map",
+    "static/media/imac.jpeg": "/test-react-page/static/media/imac.7019ba5c.jpeg",
+    "static/media/star-active.svg": "/test-react-page/static/media/star-active.fce98d93.svg",
+    "static/media/star.svg": "/test-react-page/static/media/star.521e3876.svg"
+  }
+}
