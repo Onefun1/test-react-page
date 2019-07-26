@@ -1,0 +1,26 @@
+footer {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px #ccc;
+  box-sizing: border-box;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  transition: all 0.5s ease-out;
+}
+
+a {
+  font-family: helvetica;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  color: #00acdc;
+}

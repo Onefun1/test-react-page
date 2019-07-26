@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 80%;
+  margin: auto;
+  background-color: #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.goodsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
